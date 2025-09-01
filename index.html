@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎥 限定公開プレイリスト集（縦サムネ版・超シンプル）</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    :root{--bg:#0b0f17;--ink:#e6ebff;--weak:#9aa6c1;--card:#111522}
+    @media(prefers-color-scheme:light){:root{--bg:#fafbff;--ink:#0b1020;--weak:#667085;--card:#ffffff}}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans JP',sans-serif}
+    .wrap{max-width:560px;margin:0 auto;padding:16px 16px 28px}
+    h1{font-size:1.05rem;margin:.5rem 0 10px}
+    .note{color:var(--weak);font-size:.9rem;margin:10px 2px 4px}
+
+    /* 縦に1列で並べる（スマホ向け） */
+    .list{display:flex;flex-direction:column;gap:12px}
+    .thumblink{display:block;border-radius:12px;overflow:hidden;background:var(--card);box-shadow:0 2px 10px rgba(0,0,0,.14)}
+    .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+  </style>
+</head>
+<body>
+  <div class="wrap" id="app" data-version="vertical-thumb-v1">
+    <h1>🎥 限定公開プレイリスト集</h1>
+
+    <div class="list">
+      <!-- ▼ サムネだけ：下にコピペで追加（タイトルは alt にのみ記載） -->
+      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZET77UW9WHobDdtsbmifKKh" target="_blank" rel="noopener">
+        <img class="thumb" alt="2010年太田神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
+        <!-- 実サムネ例：
+        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2010年太田神社 サムネイル"> -->
+      </a>
+
+      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFkNxLz7J6sfhtNHjVrDjNI" target="_blank" rel="noopener">
+        <img class="thumb" alt="2011草深　寄ノ宮八幡神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
+        <!-- 実サムネ例：
+        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2011草深　寄ノ宮八幡神社 サムネイル"> -->
+      </a>
+      <!-- ▲ ここまで（以降に貼り付けて増やす） -->
+    </div>
+
+    <p class="note">実サムネにするには、各プレイリスト内の代表動画IDを使って <code>https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg</code> を設定してください（高解像度は <code>maxresdefault.jpg</code>）。</p>
+  </div>
+
+  <script>
+    // 二重表示の自己修復（wrapが複数ある場合は先頭以外を削除）
+    (function(){ const wraps=document.querySelectorAll('.wrap'); for(let i=1;i<wraps.length;i++) wraps[i].remove(); })();
+  </script>
+</body>
+</html>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎥 限定公開プレイリスト集（縦サムネ版・超シンプル）</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    :root{--bg:#0b0f17;--ink:#e6ebff;--weak:#9aa6c1;--card:#111522}
+    @media(prefers-color-scheme:light){:root{--bg:#fafbff;--ink:#0b1020;--weak:#667085;--card:#ffffff}}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans JP',sans-serif}
+    .wrap{max-width:560px;margin:0 auto;padding:16px 16px 28px}
+    h1{font-size:1.05rem;margin:.5rem 0 10px}
+    .note{color:var(--weak);font-size:.9rem;margin:10px 2px 4px}
+
+    /* 縦に1列で並べる（スマホ向け） */
+    .list{display:flex;flex-direction:column;gap:12px}
+    .thumblink{display:block;border-radius:12px;overflow:hidden;background:var(--card);box-shadow:0 2px 10px rgba(0,0,0,.14)}
+    .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+  </style>
+</head>
+<body>
+  <div class="wrap" id="app" data-version="vertical-thumb-v1">
+    <h1>🎥 限定公開プレイリスト集</h1>
+
+    <div class="list">
+      <!-- ▼ サムネだけ：下にコピペで追加（タイトルは alt にのみ記載） -->
+      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZET77UW9WHobDdtsbmifKKh" target="_blank" rel="noopener">
+        <img class="thumb" alt="2010年太田神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
+        <!-- 実サムネ例：
+        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2010年太田神社 サムネイル"> -->
+      </a>
+
+      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFkNxLz7J6sfhtNHjVrDjNI" target="_blank" rel="noopener">
+        <img class="thumb" alt="2011草深　寄ノ宮八幡神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
+        <!-- 実サムネ例：
+        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2011草深　寄ノ宮八幡神社 サムネイル"> -->
+      </a>
+      <!-- ▲ ここまで（以降に貼り付けて増やす） -->
+    </div>
+
+    <p class="note">実サムネにするには、各プレイリスト内の代表動画IDを使って <code>https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg</code> を設定してください（高解像度は <code>maxresdefault.jpg</code>）。</p>
+  </div>
+
+  <script>
+    // 二重表示の自己修復（wrapが複数ある場合は先頭以外を削除）
+    (function(){ const wraps=document.querySelectorAll('.wrap'); for(let i=1;i<wraps.length;i++) wraps[i].remove(); })();
+  </script>
+</body>
+</html>
