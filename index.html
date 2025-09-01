@@ -3,47 +3,45 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>🎥 限定公開プレイリスト集（縦サムネ版・超シンプル）</title>
+  <title>動画リストページ（非公開）</title>
   <meta name="robots" content="noindex,nofollow" />
   <style>
-    :root{--bg:#0b0f17;--ink:#e6ebff;--weak:#9aa6c1;--card:#111522}
-    @media(prefers-color-scheme:light){:root{--bg:#fafbff;--ink:#0b1020;--weak:#667085;--card:#ffffff}}
-    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans JP',sans-serif}
-    .wrap{max-width:560px;margin:0 auto;padding:16px 16px 28px}
-    h1{font-size:1.05rem;margin:.5rem 0 10px}
-    .note{color:var(--weak);font-size:.9rem;margin:10px 2px 4px}
-
-    /* 縦に1列で並べる（スマホ向け） */
-    .list{display:flex;flex-direction:column;gap:12px}
-    .thumblink{display:block;border-radius:12px;overflow:hidden;background:var(--card);box-shadow:0 2px 10px rgba(0,0,0,.14)}
-    .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+    :root{--bg:#0b0f17;--ink:#e6ebff;--weak:#9aa6c1}
+    @media(prefers-color-scheme:light){:root{--bg:#fafbff;--ink:#0b1020;--weak:#667085}}
+    body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans JP',sans-serif}
+    .wrap{max-width:560px;margin:0 auto;padding:18px}
+    h1{font-size:1.05rem;margin:.25rem 0 10px}
+    .note{color:var(--weak);font-size:.9rem;margin:8px 0 14px}
+    .list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+    .list a{color:inherit;text-decoration:underline}
   </style>
 </head>
 <body>
-  <div class="wrap" id="app" data-version="vertical-thumb-v1">
-    <h1>🎥 限定公開プレイリスト集</h1>
+  <!-- ✳ このファイルは“全文置換”で更新してください。wrapは1つだけ。-->
+  <div class="wrap" id="only-one">
+    <h1>動画リストページ（非公開）</h1>
+    <p class="note">このURLを知っている人だけに共有しています（ネット検索非対応）。</p>
 
-    <div class="list">
-      <!-- ▼ サムネだけ：下にコピペで追加（タイトルは alt にのみ記載） -->
-      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZET77UW9WHobDdtsbmifKKh" target="_blank" rel="noopener">
-        <img class="thumb" alt="2010年太田神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
-        <!-- 実サムネ例：
-        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2010年太田神社 サムネイル"> -->
-      </a>
+    <ul class="list">
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZET77UW9WHobDdtsbmifKKh" target="_blank" rel="noopener">① 2010年太田神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFkNxLz7J6sfhtNHjVrDjNI" target="_blank" rel="noopener">② 2011草深　寄ノ宮八幡神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEsUYQPj3Ld5y_VPVujllRu" target="_blank" rel="noopener">③ 2011片山 内常石八幡神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFWF9-pWs2H0I0ZvVJGeOTI" target="_blank" rel="noopener">④ 2011大越陽道明神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZF8ZYw_RUBcEYjs7qj7tHJN" target="_blank" rel="noopener">⑤ 2011年太田神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEXHCCJQz3dRKJllFERbN1m" target="_blank" rel="noopener">⑥ 2012尾道商業高校</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZGMXGVxZnPACO2qCWSBEQPQ" target="_blank" rel="noopener">⑦ 2012藤江荒神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFqfSz_vrB3NbujpTlCfiN7" target="_blank" rel="noopener">⑧ 2013神村竃門神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEQU0mWVJnJajfw9zR3T-io" target="_blank" rel="noopener">⑨ 2013太田神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEDl5KrwOIs36bB7LMwYwbz" target="_blank" rel="noopener">⑩ 2015年平田黄播神社七年祭</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZHZeWGcoywzgVPG8JjrqNkc" target="_blank" rel="noopener">⑪ 2023太田神社</a></li>
+      <!-- 以降はこの<li>行をコピペして、番号・タイトル・URLを差し替えてください -->
+    </ul>
 
-      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFkNxLz7J6sfhtNHjVrDjNI" target="_blank" rel="noopener">
-        <img class="thumb" alt="2011草深　寄ノ宮八幡神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
-        <!-- 実サムネ例：
-        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2011草深　寄ノ宮八幡神社 サムネイル"> -->
-      </a>
-      <!-- ▲ ここまで（以降に貼り付けて増やす） -->
-    </div>
-
-    <p class="note">実サムネにするには、各プレイリスト内の代表動画IDを使って <code>https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg</code> を設定してください（高解像度は <code>maxresdefault.jpg</code>）。</p>
+    <p class="note">※ YouTubeの「限定公開」はリンクを知っている人だけ視聴できます。</p>
   </div>
 
   <script>
-    // 二重表示の自己修復（wrapが複数ある場合は先頭以外を削除）
+    // 二重表示の保険：.wrap が複数あれば先頭以外を除去
     (function(){ const wraps=document.querySelectorAll('.wrap'); for(let i=1;i<wraps.length;i++) wraps[i].remove(); })();
   </script>
 </body>
@@ -53,47 +51,45 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>🎥 限定公開プレイリスト集（縦サムネ版・超シンプル）</title>
+  <title>🎥 限定公開プレイリスト集（テキストリンク版・単一表示）</title>
   <meta name="robots" content="noindex,nofollow" />
   <style>
-    :root{--bg:#0b0f17;--ink:#e6ebff;--weak:#9aa6c1;--card:#111522}
-    @media(prefers-color-scheme:light){:root{--bg:#fafbff;--ink:#0b1020;--weak:#667085;--card:#ffffff}}
-    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans JP',sans-serif}
-    .wrap{max-width:560px;margin:0 auto;padding:16px 16px 28px}
-    h1{font-size:1.05rem;margin:.5rem 0 10px}
-    .note{color:var(--weak);font-size:.9rem;margin:10px 2px 4px}
-
-    /* 縦に1列で並べる（スマホ向け） */
-    .list{display:flex;flex-direction:column;gap:12px}
-    .thumblink{display:block;border-radius:12px;overflow:hidden;background:var(--card);box-shadow:0 2px 10px rgba(0,0,0,.14)}
-    .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+    :root{--bg:#0b0f17;--ink:#e6ebff;--weak:#9aa6c1}
+    @media(prefers-color-scheme:light){:root{--bg:#fafbff;--ink:#0b1020;--weak:#667085}}
+    body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans JP',sans-serif}
+    .wrap{max-width:560px;margin:0 auto;padding:18px}
+    h1{font-size:1.05rem;margin:.25rem 0 10px}
+    .note{color:var(--weak);font-size:.9rem;margin:8px 0 14px}
+    .list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+    .list a{color:inherit;text-decoration:underline}
   </style>
 </head>
 <body>
-  <div class="wrap" id="app" data-version="vertical-thumb-v1">
+  <!-- ✳ このファイルは“全文置換”で更新してください。wrapは1つだけ。-->
+  <div class="wrap" id="only-one">
     <h1>🎥 限定公開プレイリスト集</h1>
+    <p class="note">このURLを知っている人だけに共有しています（ネット検索非対応）。</p>
 
-    <div class="list">
-      <!-- ▼ サムネだけ：下にコピペで追加（タイトルは alt にのみ記載） -->
-      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZET77UW9WHobDdtsbmifKKh" target="_blank" rel="noopener">
-        <img class="thumb" alt="2010年太田神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
-        <!-- 実サムネ例：
-        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2010年太田神社 サムネイル"> -->
-      </a>
+    <ul class="list">
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZET77UW9WHobDdtsbmifKKh" target="_blank" rel="noopener">① 2010年太田神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFkNxLz7J6sfhtNHjVrDjNI" target="_blank" rel="noopener">② 2011草深　寄ノ宮八幡神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEsUYQPj3Ld5y_VPVujllRu" target="_blank" rel="noopener">③ 2011片山 内常石八幡神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFWF9-pWs2H0I0ZvVJGeOTI" target="_blank" rel="noopener">④ 2011大越陽道明神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZF8ZYw_RUBcEYjs7qj7tHJN" target="_blank" rel="noopener">⑤ 2011年太田神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEXHCCJQz3dRKJllFERbN1m" target="_blank" rel="noopener">⑥ 2012尾道商業高校</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZGMXGVxZnPACO2qCWSBEQPQ" target="_blank" rel="noopener">⑦ 2012藤江荒神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFqfSz_vrB3NbujpTlCfiN7" target="_blank" rel="noopener">⑧ 2013神村竃門神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEQU0mWVJnJajfw9zR3T-io" target="_blank" rel="noopener">⑨ 2013太田神社</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZEDl5KrwOIs36bB7LMwYwbz" target="_blank" rel="noopener">⑩ 2015年平田黄播神社七年祭</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZHZeWGcoywzgVPG8JjrqNkc" target="_blank" rel="noopener">⑪ 2023太田神社</a></li>
+      <!-- 以降はこの<li>行をコピペして、番号・タイトル・URLを差し替えてください -->
+    </ul>
 
-      <a class="thumblink" href="https://www.youtube.com/playlist?list=PLawlsqhXE8ZFkNxLz7J6sfhtNHjVrDjNI" target="_blank" rel="noopener">
-        <img class="thumb" alt="2011草深　寄ノ宮八幡神社 サムネイル" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'><rect width='160' height='90' fill='black'/><rect x='0' y='60' width='160' height='30' fill='#111'/><circle cx='80' cy='45' r='22' fill='red'/><polygon points='74,35 98,45 74,55' fill='white'/></svg>">
-        <!-- 実サムネ例：
-        <img class="thumb" src="https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg" alt="2011草深　寄ノ宮八幡神社 サムネイル"> -->
-      </a>
-      <!-- ▲ ここまで（以降に貼り付けて増やす） -->
-    </div>
-
-    <p class="note">実サムネにするには、各プレイリスト内の代表動画IDを使って <code>https://i.ytimg.com/vi/VIDEOID/hqdefault.jpg</code> を設定してください（高解像度は <code>maxresdefault.jpg</code>）。</p>
+    <p class="note">※ YouTubeの「限定公開」はリンクを知っている人だけ視聴できます。</p>
   </div>
 
   <script>
-    // 二重表示の自己修復（wrapが複数ある場合は先頭以外を削除）
+    // 二重表示の保険：.wrap が複数あれば先頭以外を除去
     (function(){ const wraps=document.querySelectorAll('.wrap'); for(let i=1;i<wraps.length;i++) wraps[i].remove(); })();
   </script>
 </body>
